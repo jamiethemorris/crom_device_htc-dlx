@@ -36,7 +36,8 @@ PRODUCT_PACKAGES += \
 
 # Post boot service
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/init.post_boot.sh:system/etc/init.post_boot.sh
+    $(LOCAL_PATH)/configs/init.post_boot.sh:system/etc/init.post_boot.sh \
+    device/htc/dlx/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Recovery
 PRODUCT_PACKAGES += \
