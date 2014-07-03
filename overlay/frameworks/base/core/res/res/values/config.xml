@@ -244,7 +244,7 @@
     <bool name="config_deviceHasVariableButtonBrightness">true</bool>
 
     <!-- Device supports LED flashlight -->
-    <bool name="config_enableTorch">true</bool>
+<!--    <bool name="config_enableTorch">true</bool> -->
 
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
