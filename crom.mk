@@ -7,6 +7,10 @@ PRODUCT_PACKAGE_OVERLAYS += device/htc/dlx/overlay
 # Inherit some common C-ROM stuff.
 $(call inherit-product, vendor/crom/config/common_phone.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 # Enhanced NFC
 # $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
